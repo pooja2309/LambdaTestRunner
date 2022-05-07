@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20045" started-at="2022-05-07T11:22:54 UTC" finished-at="2022-05-07T11:23:14 UTC">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20045" started-at="2022-05-07T11:22:54 UTC" finished-at="2022-05-07T11:23:14 UTC">
+      <class name="Runner.LambdaRunner">
+        <test-method status="PASS" signature="setdriver()[pri:0, instance:Runner.LambdaRunner@eafc191]" name="setdriver" duration-ms="1712" started-at="2022-05-07T11:22:54 UTC" finished-at="2022-05-07T11:22:55 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setdriver -->
+        <test-method status="PASS" signature="openwebsite()[pri:0, instance:Runner.LambdaRunner@eafc191]" name="openwebsite" duration-ms="485" started-at="2022-05-07T11:22:55 UTC" depends-on-methods="Runner.LambdaRunner.setdriver" finished-at="2022-05-07T11:22:56 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openwebsite -->
+        <test-method status="PASS" signature="TestcaseOne()[pri:0, instance:Runner.LambdaRunner@eafc191]" name="TestcaseOne" duration-ms="957" started-at="2022-05-07T11:22:56 UTC" depends-on-methods="Runner.LambdaRunner.openwebsite" finished-at="2022-05-07T11:22:57 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestcaseOne -->
+        <test-method status="PASS" signature="TestcaseTwo()[pri:0, instance:Runner.LambdaRunner@eafc191]" name="TestcaseTwo" duration-ms="3940" started-at="2022-05-07T11:22:57 UTC" depends-on-methods="Runner.LambdaRunner.TestcaseOne" finished-at="2022-05-07T11:23:01 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestcaseTwo -->
+        <test-method status="PASS" signature="TestcaseThree()[pri:0, instance:Runner.LambdaRunner@eafc191]" name="TestcaseThree" duration-ms="10814" started-at="2022-05-07T11:23:01 UTC" depends-on-methods="Runner.LambdaRunner.TestcaseTwo" finished-at="2022-05-07T11:23:12 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestcaseThree -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Runner.LambdaRunner@eafc191]" name="close" is-config="true" duration-ms="2084" started-at="2022-05-07T11:23:12 UTC" finished-at="2022-05-07T11:23:14 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Runner.LambdaRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
