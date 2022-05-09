@@ -5,12 +5,9 @@
     <classes>
       <class name="Runner.LambdaRunner">
         <methods>
-          <include name="close"/>
-          <include name="TestcaseOne"/>
-          <include name="TestcaseTwo"/>
-          <include name="TestcaseThree"/>
-          <include name="openwebsite"/>
-          <include name="setdriver"/>
+          <include name="tearDown"/>
+          <include name="Testcase"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- Runner.LambdaRunner -->
     </classes>
