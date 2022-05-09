@@ -59,6 +59,8 @@ public class LambdaRunner {
 
         driver = new RemoteWebDriver(new URL("https://" + username + ":" + authkey + hub), caps);
         lp = new LandingpageUI(driver);
+        
+        
     }
 	
 //	@Test
